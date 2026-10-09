@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import Dict, Any, Tuple
+from typing import Dict, Any, Tuple, Optional
 from app.security.models.mitigation_action import MitigationAction
 
 class BaseExecutor(ABC):
